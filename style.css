@@ -1,0 +1,67 @@
+.container-row{
+   display: flex;
+   flex-direction: row;
+
+   background-color: rgb(255, 0, 98);
+   padding: 16px;
+   height: 500px;
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+ 
+    background-color: rgb(255, 0, 98);
+    padding: 16px;
+    height: 500px;
+ }
+ .container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+ 
+    background-color: rgb(255, 0, 98);
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-column-rever{
+    display: flex;
+    flex-direction: column-reverse; 
+
+    background-color: rgb(255, 0, 98);
+    padding: 16px;
+    height: 500px;
+ }
+
+
+.bloco-1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 160px;
+
+}
+
+.bloco-2{
+    background-color: yellowgreen;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 160px;
+}
+
+.bloco-3{
+    background-color: gold;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 160px;
+
+}
