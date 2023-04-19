@@ -24,7 +24,7 @@
     height: 500px;
  }
 
- .container-column-rever{
+ .container-column-reverse{
     display: flex;
     flex-direction: column-reverse; 
 
@@ -65,3 +65,98 @@
     border-radius: 160px;
 
 }
+
+.container-justify-content-flex-center{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-justify-content-flex-start{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-justify-content-flex-end{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-justify-content-space-between{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-justify-content-space-around{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ } 
+
+ .container-justify-content-space-evenly{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly; 
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px; 
+
+}
+
+ .container-alignitemscenter{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ .container-alignitemsstart{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: start;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
+
+ 
+ .container-alignitemstretch{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: stretch;
+ 
+    background-color: red
+    padding: 16px;
+    height: 500px;
+ }
