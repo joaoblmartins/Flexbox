@@ -1,162 +1,316 @@
-.container-row{
-   display: flex;
-   flex-direction: row;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 
-   background-color: rgb(255, 0, 98);
-   padding: 16px;
-   height: 500px;
+hr {
+    margin: 15px;
 }
 
-.container-column{
+.titulo-pagina {
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: darkblue;
+    margin: 10px;
+}
+
+.nome-da-propriedade {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    padding: 20px;
+}
+
+.valor-da-propriedade {
+    font-size: 1,5em;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 30px;
+}
+
+.bloco-1 {
+    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2 {
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-1-sem-altura {
+    background-color: lightblue;
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-sem-altura {
+    background-color: lightpink;
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-sem-altura {
+    background-color: red;
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-1-fontes-diferentes{
+    background-color: lightblue;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-fontes-diferentes{
+    background-color: lightpink;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-fontes-diferentes{
+    background-color: red;
+
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    background-color:yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column {
     display: flex;
     flex-direction: column;
- 
-    background-color: rgb(255, 0, 98);
+    background-color: yellow;
     padding: 16px;
     height: 500px;
- }
- .container-row-reverse{
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color:yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row-reverse {
     display: flex;
     flex-direction: row-reverse;
- 
-    background-color: rgb(255, 0, 98);
+    background-color:yellow;
     padding: 16px;
     height: 500px;
- }
+}
 
- .container-column-reverse{
+.container-justify-center {
     display: flex;
-    flex-direction: column-reverse; 
-
-    background-color: rgb(255, 0, 98);
-    padding: 16px;
-    height: 500px;
- }
-
-
-.bloco-1{
-    background-color: blue;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 160px;
-
-}
-
-.bloco-2{
-    background-color: yellowgreen;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 160px;
-}
-
-.bloco-3{
-    background-color: gold;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 160px;
-
-}
-
-.container-justify-content-flex-center{
-    display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
- 
-    background-color: red
+    background-color: yellow;
     padding: 16px;
     height: 500px;
- }
-
- .container-justify-content-flex-start{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
- 
-    background-color: red
-    padding: 16px;
-    height: 500px;
- }
-
- .container-justify-content-flex-end{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
- 
-    background-color: red
-    padding: 16px;
-    height: 500px;
- }
-
- .container-justify-content-space-between{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
- 
-    background-color: red
-    padding: 16px;
-    height: 500px;
- }
-
- .container-justify-content-space-around{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around; 
- 
-    background-color: red
-    padding: 16px;
-    height: 500px;
- } 
-
- .container-justify-content-space-evenly{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly; 
- 
-    background-color: red
-    padding: 16px;
-    height: 500px; 
-
 }
 
- .container-alignitemscenter{
+.container-justify-flex-start {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-center {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
- 
-    background-color: red
+    background-color: yellow;
     padding: 16px;
     height: 500px;
- }
+}
 
- .container-alignitemsstart{
+.container-alignitems-flex-start {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
-    align-items: start;
- 
-    background-color: red
+    align-items: flex-start;
+    background-color: yellow;
     padding: 16px;
     height: 500px;
- }
 
- 
- .container-alignitemstretch{
+}
+
+.container-alignitems-flex-end {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-alignitems-stretch {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: stretch;
- 
-    background-color: red
+    background-color: yellow;
     padding: 16px;
     height: 500px;
- }
+}
+
+.container-alignitems-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: yellow;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    flex-wrap: nowrap;
+    padding: 16px;
+    height: 500px;
+
+}   
+
+.container-flexwrap-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+
+}   
+
+.container-flexwrap-wrap-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    flex-wrap: wrap-reverse;
+    padding: 16px;
+    height: 500px;
+
+}   
+
+.container-flexflow-row-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    flex-flow: row nowrap;
+    padding: 16px;
+    height: 500px;
+
+}   
+
+
