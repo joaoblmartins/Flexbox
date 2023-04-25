@@ -313,4 +313,86 @@ hr {
 
 }   
 
+.container-flex-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+} 
 
+.container-flex-align-content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: top;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}    
+
+.container-flex-align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}    
+
+.container-flex-align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}    
+
+.container-flex-align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}    
+
+.container-flex-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+} 
+
+.container-flex-align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    background-color: yellow;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}    
