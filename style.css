@@ -13,31 +13,31 @@ hr {
     margin: 10px;
 }
 
-.menu-navegacao{
+.menu-navegacao {
     width: 70%;
     margin: auto;
     text-align: center;
 }
 
-.menu-navegacao ul{ 
+.menu-navegacao ul { 
     display: flex;
     justify-content: space-around;
     list-style: none;
 }
 
-.menu-navegacao li{
+.menu-navegacao li {
     padding: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
     font-size: medium;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 .menu-navegacao a:hover{
-    background-color: black;
+    background-color: red 
 }
 
 .nome-da-propriedade {
