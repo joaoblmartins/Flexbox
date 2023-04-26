@@ -52,10 +52,10 @@ a {
 
 .nome-da-propriedade-shorthand {
     font-size: 400px;
-    font-weight: 70px;
+    font-weight: 80px;
     font-family: 'Courier New', Courier, monospace;
     color: red;
-    padding: 20px;
+    padding: 40px;
 }
 
 .valor-da-propriedade {
