@@ -14,10 +14,10 @@ hr {
 }
 
 .menu-navegacao {
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    background-color: green;
+    background-color: orange;
     height: 80px;
 }
 
