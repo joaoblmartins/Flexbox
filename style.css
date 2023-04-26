@@ -13,6 +13,33 @@ hr {
     margin: 10px;
 }
 
+.menu-navegacao{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-navegacao ul{ 
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-navegacao li{
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-navegacao a:hover{
+    background-color: black;
+}
+
 .nome-da-propriedade {
     font-size: 2em;
     font-weight: 500px;
@@ -313,7 +340,7 @@ hr {
 
 }   
 
-.container-flex-align-content-center{
+.container-align-content-center{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -325,7 +352,7 @@ hr {
     height: 500px;
 } 
 
-.container-flex-align-content-top{
+.container-align-content-top{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -337,7 +364,7 @@ hr {
     height: 500px;
 }    
 
-.container-flex-align-content-space-evenly{
+.container-align-content-space-evenly{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -349,7 +376,7 @@ hr {
     height: 500px;
 }    
 
-.container-flex-align-content-space-between{
+.container-align-content-space-between{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -361,7 +388,7 @@ hr {
     height: 500px;
 }    
 
-.container-flex-align-content-space-around{
+.container-align-content-space-around{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -373,7 +400,7 @@ hr {
     height: 500px;
 }    
 
-.container-flex-align-content-flex-start{
+.container-align-content-flex-start{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -385,7 +412,7 @@ hr {
     height: 500px;
 } 
 
-.container-flex-align-content-flex-end{
+.container-align-content-flex-end{
     display: flex;
     flex-direction: row;
     justify-content: center;
